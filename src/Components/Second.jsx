@@ -8,9 +8,9 @@ const Second = () => {
   return (
     <div className='flex flex-col gap-8 justify-center items-center  py-10'>
         <div className="heading">
-              <h4 className='text-2xl font-bold'>Trusted By Over 100+ Startups and freelance business.</h4>
+              <h4 className='text-2xl max-sm:text-sm font-bold'>Trusted By Over 100+ Startups and freelance business.</h4>
         </div>
-        <div className="company-logo flex gap-8 ">
+        <div className="company-logo flex justify-center items-center flex-wrap m-auto p-10 gap-10 ">
             <img src={Image1} alt="" />
             <img src={Image2} alt="" />
             <img src={Image2} alt="" />

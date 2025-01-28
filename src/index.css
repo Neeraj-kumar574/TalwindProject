@@ -2,11 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
+.backk{
+    position: relative;
+}
+.owl-nav{
+    position: absolute;
+    top: -50px;
+    right: 20px;
+   
+}
+.owl-next span{ 
+  
+    background-color: white;
+    color: rgb(116, 101, 243);
+    font-size: 30px;
+    border-radius: 50%;
+   
+ padding: 0px 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 
+}
 
-.slick-arrow:before{
-    color: red;
-    font-size: 50px;
+.owl-next span:hover{
+    background-color: red;
+    color: #fff;
+}
+.owl-prev span:hover{
+    background-color: red;
+    color: #fff;
+}
+.owl-prev span{ 
+  
+    background-color: white;
+    color: rgb(116, 101, 243);
+    font-size: 30px;
+    border-radius: 50%;
+   
+ padding: 0px 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
 }
 body{
     margin: 0;

@@ -12,17 +12,20 @@ import Important from './Important'
 import Youtube from './Youtube'
 import Phone from './Phone'
 import Contact from './Contact'
-// import Swipe from './Swipe'
+import Swipe from './Swipe'
 import Trans from './Trans'
 import Service from './Service'
 
 import { Joint } from './Joint'
+
+
 
 function App() {
   
 
   return (
     <>
+    
       <Navbar/>
       <First/> 
       <Second/>
@@ -33,6 +36,7 @@ function App() {
       <Introduction/>  
       <Options/>
       <Trans/>
+      <Swipe/>
       <Joint/>
       <Phone/>
       <Important/>
@@ -42,7 +46,7 @@ function App() {
      
       
       <Contact/>
-      {/* <Swipe/> */}
+     
      
       
      
