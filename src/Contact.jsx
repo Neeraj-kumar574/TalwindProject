@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaFacebook } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
